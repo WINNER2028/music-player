@@ -11,7 +11,7 @@ body {
   font-size: 16px;
   width: 80vw;
   max-width: 25em;
-  background-color: #ffffff;
+  background-color: #eded1e;
   padding: 3em 1.8em;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -76,7 +76,7 @@ img {
   position: relative;
   width: 100%;
   height: 0.3em;
-  background-color: #eeeeee;
+  background-color: #0b0101;
   margin: 1em 0;
   border-radius: 0.18em;
   cursor: pointer;
@@ -88,7 +88,7 @@ img {
   display: inline-block;
   height: 100%;
   width: 20%;
-  background-color: #2887e3;
+  background-color: #f51410;
   border-radius: 0.18em;
 }
 .time-container {
@@ -98,7 +98,7 @@ img {
   font-family: "Roboto Mono", monospace;
 }
 #playlist-container {
-  background-color: #ffffff;
+  background-color: #fff;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -108,6 +108,7 @@ img {
   border-radius: 0.6em;
   padding: 2em 1em;
   font-family: "Poppins", sans-serif;
+  overflow: scroll;
 }
 #close-button {
   background-color: transparent;
